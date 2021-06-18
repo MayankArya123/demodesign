@@ -1,38 +1,1227 @@
-.App {
-  text-align: center;
+
+* {
+
+  box-sizing: border-box;
+
+  margin: 0;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+:root {
+
+  --pale-blue: #f1fefe;
+
+  --aqua-blue: #00dbd0;
+
+  --alice-blue: #f0f8ff;
+
+  --black: #000000;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+/* navigation start */
+
+
+
+.navigation {
+
+  height: 5rem;
+
+  width: 90%;
+
+  margin: auto;
+
   display: flex;
-  flex-direction: column;
+
+  flex-direction: row;
+
+}
+
+
+
+.navigation .first-half {
+
+  width: 30%;
+
+  display: flex;
+
+  justify-content: space-evenly;
+
   align-items: center;
+
+}
+
+
+
+.organic {
+
+  font-family: LibreBaskerville sans-serif;
+
+  font-size: 2.625rem;
+
+  font-weight: bold;
+
+  font-stretch: normal;
+
+  font-style: normal;
+
+  line-height: 1.33;
+
+  letter-spacing: normal;
+
+  color: #374b5c;
+
+}
+
+
+
+.navigation .second-half {
+
+  width: 70%;
+
+  padding-left: 20%;
+
+  display: flex;
+
+  justify-content: space-evenly;
+
+  align-items: center;
+
+}
+
+
+
+.navigation .logo {
+
+  width: 6rem;
+
+  height: 4rem;
+
+}
+
+
+
+.navigation .logo img {
+
+  width: 100%;
+
+  height: 100%;
+
+}
+
+
+
+.navigation .second-half a {
+
+  font-family: LibreBaskerville sans-serif;
+
+  font-size: 1rem;
+
+  font-weight: normal;
+
+  font-stretch: normal;
+
+  font-style: normal;
+
+  line-height: 1.31;
+
+  letter-spacing: normal;
+
+  color: #374b5c;
+
+  text-decoration: none;
+
+}
+
+
+
+/* navigation end */
+
+
+
+/* SECOND SECTION START container 2 */
+
+
+
+.wrapper-2 {
+
+  margin-top: 4rem;
+
+}
+
+
+
+.container-2 {
+
+  display: flex;
+
+  flex-direction: row;
+
+  width: 90%;
+
+  margin: auto;
+
+}
+
+
+
+.container-2 .first-box {
+
+  width: 40%;
+
+}
+
+
+
+.container-2 .second-box {
+
+  width: 60%;
+
+  display: flex;
+
+}
+
+
+
+.container-2 .second-box img {
+
+  position: absolute;
+
+  height: 35.625rem;
+
+  width: 26.188rem;
+
+  left: -75%;
+
+  top: -4%;
+
+}
+
+
+
+.healthy {
+
+  font-family: LibreBaskerville sans-serif;
+
+  font-size: 2.25rem;
+
+  font-weight: normal;
+
+  font-stretch: normal;
+
+  font-style: normal;
+
+  line-height: 1.33;
+
+  letter-spacing: normal;
+
+  text-align: left;
+
+  color: #374b5c;
+
+}
+
+
+
+.nature {
+
+  font-family: LibreBaskerville sans-serif;
+
+  font-size: 3.5rem;
+
+  font-weight: bold;
+
+  font-stretch: normal;
+
+  font-style: normal;
+
+  line-height: 1.32;
+
+  letter-spacing: normal;
+
+  text-align: left;
+
+  color: #374b5c;
+
+}
+
+
+
+.demo {
+
+  font-family: LibreBaskerville sans-serif;
+
+  font-size: 1.25rem;
+
+  font-weight: normal;
+
+  font-stretch: normal;
+
+  font-style: normal;
+
+  line-height: 1.35;
+
+  letter-spacing: normal;
+
+  text-align: left;
+
+  color: #374b5c;
+
+}
+
+
+
+.explore-now {
+
+  width: 10.75rem;
+
+  height: 3rem;
+
+  background-color: var(--aqua-blue);
+
+  border-radius: 10px;
+
+  font-family: LibreBaskerville sans-serif;
+
+  font-size: 1.32rem;
+
+  font-weight: bold;
+
+  font-stretch: normal;
+
+  font-style: normal;
+
+  line-height: 1.33;
+
+  letter-spacing: normal;
+
+  color: #ffffff;
+
+  cursor: pointer;
+
+  text-align: center;
+
+  border: transparent;
+
+}
+
+
+
+.rectangle-image-box {
+
+  position: relative;
+
+  margin-left: 40%;
+
+  width: 55%;
+
+  height: 21.25rem;
+
+  padding: 4.029rem 4.081rem 4.063rem 4.125rem;
+
+  border: solid 3px var(--aqua-blue);
+
+  background-size: 80% 80%;
+
+  background-image: url("./asset/Group\ 228.png");
+
+  background-position: center;
+
+  background-repeat: no-repeat;
+
+  z-index: 1;
+
+}
+
+
+
+/* SECOND SECTION START container 2  end*/
+
+
+
+/* .container-3 start */
+
+
+
+.wrapper-3 {
+
+  margin-top: 14rem;
+
+}
+
+
+
+.welcome {
+
+  font-family: LibreBaskerville sans-serif;
+
+  font-size: 2.25rem;
+
+  font-weight: normal;
+
+  font-stretch: normal;
+
+  font-style: normal;
+
+  line-height: 1.33;
+
+  letter-spacing: normal;
+
+  text-align: center;
+
+  color: #374b5c;
+
+}
+
+
+
+.lorem {
+
+  font-family: LibreBaskerville sans-serif;
+
+  font-size: 1rem;
+
+  font-weight: normal;
+
+  font-stretch: normal;
+
+  font-style: normal;
+
+  line-height: 1.31;
+
+  letter-spacing: normal;
+
+  text-align: center;
+
+  color: #374b5c;
+
+}
+
+
+
+.container-3 {
+
+  width: 90%;
+
+  margin: auto;
+
+}
+
+
+
+.container-3 .first-box,
+
+.container-4 .first-box {
+
+  width: 40%;
+
+  margin: auto;
+
+  margin-bottom: 4rem;
+
+}
+
+
+
+.container-3 .second-box {
+
+  margin-top: 2rem;
+
+  display: flex;
+
+  flex-direction: row;
+
+  justify-content: space-evenly;
+
+}
+
+
+
+.container-3 .second-box .card {
+
+  width: 22%;
+
+  height: 17.495rem;
+
+  /* border-radius: 20px;
+
+  border: solid 0.5px #374b5c; */
+
+}
+
+
+
+.container-3 .card .image {
+
+  width: 100%;
+
+  height: 100%;
+
+}
+
+.container-3 .card .image img {
+
+  width: 100%;
+
+  height: 100%;
+
+}
+
+
+
+.card {
+
+  border: none !important;
+
+}
+
+
+
+/* .container-3 end */
+
+
+
+/*  brands carousel section  container4  start */
+
+
+
+.wrapper-4 {
+
+  margin-top: 6rem;
+
+}
+
+
+
+.container-4 {
+
+  width: 90%;
+
+  margin: auto;
+
+}
+
+
+
+.owl-nav {
+
+  display: none;
+
+}
+
+
+
+/*  brands carousel section end */
+
+
+
+/* testimonial section */
+
+
+
+.testimonial-wrapper {
+
+  margin-top: 5rem;
+
+  margin-bottom: 3rem;
+
+}
+
+
+
+.testimonial-section {
+
+  width: 40%;
+
+  margin: auto;
+
+}
+
+
+
+.testimonial-section .image {
+
+  border-radius: 50%;
+
+  width: 6rem;
+
+  height: 6rem;
+
+  background-color: blue;
+
+  margin: auto;
+  
+  background:url('./asset/woman2.webp');
+
+}
+
+
+
+.testimonial-section .name {
+
+  font-family: LibreBaskerville sans-serif;
+
+  font-size: 1.625rem;
+
+  font-weight: normal;
+
+  font-stretch: normal;
+
+  font-style: normal;
+
+  line-height: 1.35;
+
+  letter-spacing: normal;
+
+  color: #374b5c;
+
+  text-align: center;
+
+}
+
+
+
+.lorem1 {
+
+  font-family: LibreBaskerville sans-serif;
+
+  font-size: 1rem;
+
+  font-weight: normal;
+
+  font-stretch: normal;
+
+  font-style: normal;
+
+  line-height: 2.5;
+
+  letter-spacing: normal;
+
+  text-align: center;
+
+  color: #374b5c;
+
+}
+
+
+
+.quote {
+
+  margin: auto;
+
+  width: 3rem;
+
+  margin-bottom: 2rem;
+
+}
+
+
+
+/* testimonial section end */
+
+
+
+/* subscribe section  start*/
+
+
+
+.plant-wrapper {
+
+  width: 100%;
+
+  height: 100%;
+
+  position: relative;
+
+}
+
+
+
+.plant-wrapper .plant-image {
+
+  position: absolute;
+
+  left: -10%;
+
+  width: 30%;
+
+  height: 100%;
+
+  transform: rotate(80deg);
+
+  max-height:620px;
+
+  max-width: 620px;
+
+}
+
+
+
+.subscribe-section {
+
+  width: 90%;
+
+  margin: auto;
+
+}
+
+.subscribe-section .box {
+
+  width: 40%;
+
+  margin: auto;
+
+}
+
+
+
+.input-group-append {
+
+  width: 8.438rem;
+
+  height: 2.313rem;
+
+  /* padding: 1.313rem 2.844rem 1.5rem; */
+
+  border-radius: 30px;
+
+  background-color: #00dbd0;
+
+  border-top-left-radius: 30px !important;
+
+  border-bottom-left-radius: 30px !important;
+
+  display: flex;
+
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+  align-items: center;
+
 }
 
-.App-link {
-  color: #61dafb;
+
+
+.input-group {
+
+  border: 1px solid grey;
+
+  border-radius: 30px;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+.form-control {
+
+  border-radius: 30px !important;
+
+  border: transparent;
+
 }
+
+
+
+/* subscribe section end */
+
+
+
+/* blog section start */
+
+
+
+.blog-wrapper {
+
+  margin-top: 5rem;
+
+}
+
+
+
+.blog-section {
+
+  width: 90%;
+
+  margin: auto;
+
+}
+
+.blog-section .first-section {
+
+  width: 40%;
+
+  margin: auto;
+
+  margin-bottom: 3rem;
+
+}
+
+
+
+.blog-section .second-section {
+
+  display: flex;
+
+  flex-direction: row;
+
+  justify-content: space-evenly;
+
+}
+
+
+
+.blog-section .second-section .box {
+
+  width: 30%;
+
+  position: relative;
+
+}
+
+
+
+.blog-section .image {
+
+  height: 12.188rem;
+
+  width: 100%;
+
+  background-color: blueviolet;
+
+  border-top-left-radius: 10px;
+
+  border-top-right-radius: 10px;
+
+}
+
+.blog-section .image img {
+
+  width: 100%;
+    
+  height:100%;
+
+  border-top-left-radius: 10px;
+
+  border-top-right-radius: 10px;
+
+}
+
+
+
+.blog-post {
+
+  margin-top: 1rem;
+
+  font-family: LibreBaskerville sans-serif;
+
+  font-size: 1.125rem;
+
+  font-weight: normal;
+
+  font-stretch: normal;
+
+  font-style: normal;
+
+  line-height: 1.33;
+
+  letter-spacing: normal;
+
+  text-align: center;
+
+  color: #00dbd0;
+
+}
+
+
+
+.lorem3 {
+
+  font-family: LibreBaskerville sans-serif;
+
+  font-size: 0.875rem;
+
+  font-weight: normal;
+
+  font-stretch: normal;
+
+  font-style: normal;
+
+  line-height: 1.36;
+
+  letter-spacing: normal;
+
+  text-align: center;
+
+  color: #374b5c;
+
+}
+
+
+
+.read-more {
+
+  width: 6.25rem;
+
+  margin: auto;
+
+  font-family: LibreBaskerville sans-serif;
+
+  font-size: 0.875rem;
+
+  font-weight: normal;
+
+  font-stretch: normal;
+
+  font-style: normal;
+
+  line-height: 1.36;
+
+  letter-spacing: normal;
+
+  text-align: center;
+
+  color: #374b5c;
+
+  text-decoration: none;
+
+  cursor: pointer;
+
+}
+
+
+
+.border-bottom-card {
+
+  width: 2.45rem;
+
+  height: 4px !important;
+
+  background-color: #00dbd0;
+
+  margin: auto;
+
+  margin-top: 0.4rem;
+
+  opacity: 1;
+  
+}
+
+
+
+/* blog section end */
+
+
+
+/* footer section start */
+
+.footer .box-1 {
+
+  height: 6rem;
+
+  display: flex;
+
+  justify-content: space-between;
+
+  flex-direction: column;
+
+}
+
+
+
+.footer-wrapper {
+
+  background-image: url("./asset/Group\ 229.png");
+
+  background-size: 100% 100%;
+
+  padding-top: 4rem;
+
+  padding-bottom: 4rem;
+
+  margin-top: 4rem;
+
+}
+
+
+
+.footer {
+
+  margin: auto;
+
+  width: 90%;
+
+}
+
+
+
+.footer-links {
+
+  height: 6rem;
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: space-between;
+
+}
+
+
+
+.footer-logos {
+
+  width: 10rem;
+
+  display: flex;
+
+  flex-direction: row;
+
+  justify-content: space-between;
+
+}
+
+
+
+.footer a {
+
+  font-family: LibreBaskerville sans-serif;
+
+  font-size: 0.875rem;
+
+  font-weight: normal;
+
+  font-stretch: normal;
+
+  font-style: normal;
+
+  line-height: 1.36;
+
+  letter-spacing: normal;
+
+  text-align: left;
+
+  color: #ffffff;
+
+  text-decoration: none;
+
+}
+
+
+
+.footer-logo {
+
+  cursor: pointer;
+
+}
+
+
+
+.sub-footer {
+
+  font-family: LibreBaskerville sans-serif;
+
+  font-size: 1rem;
+
+  font-weight: bold;
+
+  font-stretch: normal;
+
+  font-style: normal;
+
+  line-height: 1.31;
+
+  letter-spacing: normal;
+
+  text-align: left;
+
+  color: #ffffff;
+
+}
+
+
+
+.lorem5 {
+
+  font-family: LibreBaskerville sans-serif;
+
+  font-size: 0.875rem;
+
+  font-weight: normal;
+
+  font-stretch: normal;
+
+  font-style: normal;
+
+  line-height: 1.79;
+
+  letter-spacing: normal;
+
+  text-align: left;
+
+  color: #ffffff;
+
+  margin-bottom: 0.6rem;
+
+}
+
+
+
+.copyright {
+
+  font-family: LibreBaskerville sans-serif;
+
+  font-size: 0.875rem;
+
+  font-weight: bold;
+
+  font-stretch: normal;
+
+  font-style: normal;
+
+  line-height: 1.36;
+
+  letter-spacing: normal;
+
+  text-align: left;
+
+  color: #ffffff;
+
+  margin-top: 2rem;
+
+}
+
+
+
+.footer-bottom-border {
+
+  width: 2.45rem;
+
+  height: 4px !important;
+
+  background-color: #00dbd0;
+
+  margin-top: 0.4rem;
+
+  opacity: 1;
+
+}
+
+.footer-bottom-border-2 {
+
+  width: 5.45rem;
+
+  height: 6px !important;
+
+  background-color: #00dbd0;
+
+
+}
+
+
+/* footer  section end */
+
+
+
+/* max-width */
+
+.max-width {
+
+  max-width: 1400px;
+
+}
+
+
+/* global wrapper */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
